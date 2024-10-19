@@ -12,8 +12,6 @@ Este es el frontend del proyecto **Product CRUD**, una aplicación web para gest
 - **Docker**: Para contenerización de la aplicación.
 
 ## Estructura del proyecto
-
-\`\`\`bash
 frontend/
 ├── dist/               # Archivos generados para producción
 ├── public/             # Archivos públicos
@@ -30,7 +28,7 @@ frontend/
 ├── vite.config.js      # Configuración de Vite
 ├── tailwind.config.js  # Configuración de Tailwind CSS
 └── nginx.conf          # Configuración de Nginx (opcional para despliegue)
-\`\`\`
+
 
 ## Instalación
 

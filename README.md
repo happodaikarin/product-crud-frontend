@@ -1,4 +1,5 @@
-echo "# Product CRUD Frontend
+cat <<EOL > README.md
+# Product CRUD Frontend
 
 Este es el frontend del proyecto **Product CRUD**, una aplicación web para gestionar productos. La aplicación permite crear, editar, listar y eliminar productos, conectándose a un backend desarrollado en Spring Boot con una base de datos MySQL. El frontend está desarrollado con **React** y **Vite**, y estilizado con **Tailwind CSS**.
 
@@ -64,7 +65,7 @@ yarn install
 
 ### Configurar variables de entorno
 
-Crea un archivo .env en la raíz del proyecto con la URL del backend (por ejemplo, si usas Docker para el backend):
+Crea un archivo `.env` en la raíz del proyecto con la URL del backend (por ejemplo, si usas Docker para el backend):
 
 \`\`\`bash
 VITE_API_URL=http://localhost:8080/api
@@ -76,7 +77,7 @@ VITE_API_URL=http://localhost:8080/api
 npm run dev
 \`\`\`
 
-El proyecto estará disponible en http://localhost:3000.
+El proyecto estará disponible en \`http://localhost:3000\`.
 
 ### Construir la aplicación para producción
 
@@ -86,11 +87,11 @@ Para construir la aplicación en modo producción:
 npm run build
 \`\`\`
 
-Esto generará los archivos de producción en la carpeta dist/.
+Esto generará los archivos de producción en la carpeta \`dist/\`.
 
 ### Desplegar con Docker
 
-Si deseas desplegar la aplicación usando Docker, puedes usar el docker-compose.yml para crear los contenedores tanto del frontend como del backend.
+Si deseas desplegar la aplicación usando Docker, puedes usar el \`docker-compose.yml\` para crear los contenedores tanto del frontend como del backend.
 
 \`\`\`bash
 docker-compose up --build
@@ -105,7 +106,7 @@ docker-compose up --build
 
 ## Estilos
 
-La aplicación está estilizada usando **Tailwind CSS**. Si deseas personalizar los estilos, puedes modificar el archivo tailwind.config.js.
+La aplicación está estilizada usando **Tailwind CSS**. Si deseas personalizar los estilos, puedes modificar el archivo \`tailwind.config.js\`.
 
 ## Contribuir
 
@@ -117,4 +118,5 @@ La aplicación está estilizada usando **Tailwind CSS**. Si deseas personalizar 
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles." > README.md
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+EOL

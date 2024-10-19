@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:8080/api', // Usar localhost en lugar de productapi
+  baseURL: 'https://product-crud-backend-iv6c.onrender.com/api', // URL del backend en Render
   headers: {
     'Content-Type': 'application/json',
   },

@@ -1,5 +1,3 @@
-// src/components/Navbar.jsx
-
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 

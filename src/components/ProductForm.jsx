@@ -1,5 +1,3 @@
-// src/components/ProductForm.jsx
-
 import React, { useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import api from '../services/api';

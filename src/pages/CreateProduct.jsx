@@ -1,5 +1,3 @@
-// src/pages/CreateProduct.jsx
-
 import React, { useState } from 'react';
 import ProductForm from '../components/ProductForm';
 import api from '../services/api';

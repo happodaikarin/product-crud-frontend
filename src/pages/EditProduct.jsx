@@ -1,5 +1,3 @@
-// src/pages/EditProduct.jsx
-
 import React, { useEffect, useState } from 'react';
 import ProductForm from '../components/ProductForm';
 import api from '../services/api';

@@ -30,7 +30,6 @@ frontend/
 ├── vite.config.js      # Configuración de Vite
 ├── tailwind.config.js  # Configuración de Tailwind CSS
 └── nginx.conf          # Configuración de Nginx (opcional para despliegue)
-
 \`\`\`
 
 ## Instalación

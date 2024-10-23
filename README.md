@@ -10,28 +10,6 @@ Este es el frontend del proyecto **Product CRUD**, una aplicación web para gest
 - **Tailwind CSS**: Framework de CSS para crear rápidamente interfaces personalizadas.
 - **Axios**: Librería para realizar peticiones HTTP y conectar con el backend.
 - **Docker**: Para contenerización de la aplicación.
-
-## Estructura del proyecto
-
-\`\`\`bash
-frontend/
-├── dist/               # Archivos generados para producción
-├── public/             # Archivos públicos
-├── src/                # Código fuente del proyecto
-│   ├── assets/         # Recursos estáticos como imágenes
-│   ├── components/     # Componentes reutilizables de React
-│   ├── pages/          # Páginas principales de la aplicación
-│   ├── services/       # Servicios para realizar peticiones a la API
-│   ├── App.jsx         # Componente principal de la aplicación
-│   ├── main.jsx        # Punto de entrada de la aplicación
-│   └── index.css       # Estilos principales
-├── Dockerfile          # Definición del contenedor Docker
-├── docker-compose.yml  # Configuración de Docker Compose
-├── vite.config.js      # Configuración de Vite
-├── tailwind.config.js  # Configuración de Tailwind CSS
-└── nginx.conf          # Configuración de Nginx (opcional para despliegue)
-\`\`\`
-
 ## Instalación
 
 Sigue estos pasos para configurar y ejecutar el frontend de la aplicación en tu máquina local.
